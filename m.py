@@ -7,7 +7,7 @@ import datetime
 import os
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('6889890787:AAEvZrLmVOhLLOF4NAQQsdzbm4NB06FI81s')
+bot = telebot.TeleBot('7201961853:AAHFd7k8Da6EFiwUIDaTNuUhc0fFBYeK_mc')
 
 # Admin user IDs
 admin_id = ["1413288510"]
@@ -302,7 +302,7 @@ def welcome_start(message):
     response = f'''👋🏻Welcome to Your Home, {user_name}! Feel Free to Explore.
 🤖Try To Run This Command : /help 
 Must Read /rules Before Use
-𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝗭𝗘𝗥𝗢𝗫 𝐃𝐃𝐨𝐒 𝐁𝐎𝐓 ⚡'''
+𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 ZEROX 𝐃𝐃𝐨𝐒 𝐁𝐎𝐓 ⚡'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -326,11 +326,11 @@ VIP 🌟 :
 -> Concurrents Attack : 3000
 
 Price List💸 :
-Day-->100 Rs
-Week-->400 Rs
-Month-->1200 Rs
+Day-->250 Rs
+Week-->800 Rs
+Month-->1600 Rs
 
-Contact @𝗭𝗘𝗥𝗢𝗫  To Buy Access
+Contact To Buy Access
 '''
     bot.reply_to(message, response)
 
